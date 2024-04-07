@@ -1,0 +1,43 @@
+/* 所有标签内外边距清零 */
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+/* em和i的倾斜文字不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+/* 去掉li的小圆点 */
+li {
+    list-style: none;
+}
+
+img {
+    /* 照顾低版本浏览器，如果图片外面包含了链接会有边框问题 */
+    border: 0;
+    /* 取消图片底测有空白缝隙的问题 */
+    vertical-align: middle;
+}
+
+button {
+    /* 当鼠标经过button时候变成小手 */
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #c81623;
+}
+button,
+input {
+    /* 手动去掉边框 */
+    border: 0;
+    /* 点击输入框的时候没有蓝色确认边框 */
+    outline: none;
+}

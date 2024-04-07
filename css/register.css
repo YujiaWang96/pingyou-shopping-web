@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?fbl1co');
+    src: url('fonts/icomoon.eot?fbl1co#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?fbl1co') format('truetype'),
+        url('fonts/icomoon.woff?fbl1co') format('woff'),
+        url('fonts/icomoon.svg?fbl1co#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.logo {
+    height: 82px;
+    width: 200px;
+    margin-top: 5px;
+}
+.registerarea {
+    height: 500px;
+    border: 1px solid rgb(186, 186, 186);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner {
+    position: relative;
+    height: 40px;
+    background-color: rgb(182, 182, 182);
+}
+.banner h4 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner p {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+.banner a {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    display: block;
+    float: right;
+    color: #c81523;
+}
+.reg_form {
+    width: 700px;
+    margin: 50px auto;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.reg_form ul li input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+.message {
+    display: inline-block;
+    font-size: 14px;
+    color: gray;
+    background: url(../images/alert.png) no-repeat left center;
+    padding-left: 25px;
+}
+.right{
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(35, 174, 28);
+    background: url(../images/right.png) no-repeat left center;
+    padding-left: 25px;
+}
+.wrong {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(255, 64, 64);
+    background: url(../images/wrong.png) no-repeat left center;
+    padding-left: 25px;
+}
+
+.reg_form ul {
+    position: relative;
+}
+.reg_form ul .safe {
+    
+    width: 400px;
+    height: 20px;
+    color: gray;
+    font-size: 14px;
+}
+.safe {
+    padding-left: 182px;
+    margin: -30px;
+}
+.reg_form ul .safe .weak {
+    color: aliceblue;
+    padding: 0 12px;
+    background-color: rgb(224, 27, 60);  
+    margin-left: 10px;
+}
+.reg_form ul .safe .normal {
+    color: aliceblue;
+    padding: 0 12px;
+    background-color: rgb(255, 178, 35);
+}
+.reg_form ul .safe .strong {
+    color: aliceblue;
+    padding: 0 12px;
+    background-color: rgb(0, 160, 13);
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li:nth-child(3n) {
+    margin-bottom: 40px;
+}
+.agree {
+    padding: 10px 150px;
+    width: 500px;
+    height: 50px;
+}
+.agree .check {
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    vertical-align: middle;
+}
+.agree .label {
+    font-size: 14px;
+    line-height: 30px;
+}
+.agree a {
+    color: rgb(65, 151, 255);
+    font-size: 14px;
+}
+.finished a{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background:url() #c81523;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 140px;
+    margin-top: -20px;
+}
+
+/* 提示部分 */

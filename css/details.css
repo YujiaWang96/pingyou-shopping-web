@@ -1,0 +1,453 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?fbl1co');
+    src: url('fonts/icomoon.eot?fbl1co#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?fbl1co') format('truetype'),
+        url('fonts/icomoon.woff?fbl1co') format('woff'),
+        url('fonts/icomoon.svg?fbl1co#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.nav .dropdown .dd {
+    width: 100%;
+    height: 465px;
+    background-color: #c81623;
+    visibility: hidden;
+}
+/* 上侧主体导航栏----------------- */
+.w .top_nav {
+    height: 20px;
+    margin-top: 10px;
+}
+.w .top_nav ul li {
+    float: left;
+    padding: 0px 10px;
+    font-size: 12px;
+    color: gray;
+}
+.w .top_nav ul li:nth-child(-n+3)::after {
+    content: '\e930';
+    font-family: 'icomoon';
+}
+/* iphone详情左侧start---------------------------------- */
+.iphone_detail {
+    margin-top: 10px;
+    height: 600px;
+}
+.left_part {
+    float: left;
+    width: 350px;
+    height: 600px;
+}
+.iphone_detail .iphone_pic {
+    width: 350px;
+    height: 450px;
+    border: 1px solid rgb(175, 175, 175);
+    background: url(../upload/iphone.png) no-repeat center;
+}
+.left_part .tiny_pics li{
+    float: left;
+    width: 40px;
+    height: 60px;
+    margin: 20px 5px;
+}
+.goods_id li {
+    margin-top: 30px;
+    float: left;
+    font-size: 12px;
+    color: gray;
+    margin: 0 10px;
+}
+.goods_id li:nth-child(3)::before {
+    content: '\e97d';
+    font-family: 'icomoon';
+    color: #c81623;
+}
+.goods_id li:nth-child(2)::before {
+    content: '\e941';
+    font-family: 'icomoon';
+    color: #c81623;
+}
+/* iphone详情左侧end---------------------------------- */
+/* iphone详情右侧start---------------------------------- */
+.iphone_detail .right_part {
+    float: left;
+    width: 800px;
+    height: 600px;
+    margin-left: 50px;
+    /* background-color: #77e7e1; */
+}
+.right_part p {
+    color: #c81623;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.right_part .pink_bg {
+    height: 100px;
+    background-color: pink;
+}
+.pink_bg ul li {
+    height: 48px;
+    /* background-color: rgb(219, 181, 255); */
+    margin: 5px 0px;
+}
+
+.pink_bg ul li dl dt {
+    float: left;
+    margin-left: 5px;
+    color: gray;
+    font-size: 13px;
+    line-height: 48px;
+}
+.pink_bg ul li dl dd {
+    float: left;
+    margin-left: 50px;
+    color: #868686;
+    font-size: 12px;
+    line-height: 48px;
+}
+.pink_bg ul li dl .dd2 {
+    float: left;
+    margin-left: 50px;
+    color: #c81623;
+    font-size: 12px;
+    line-height: 48px;
+}
+.pink_bg ul li dl .dd1 {
+    color: #c81623;
+    font-size: 18px;
+    line-height: 48px;
+}
+.pink_bg ul li:nth-child(2) .dd2 i {
+    color: #fff;
+    background-color: #c81623;
+    padding: 2px;
+}
+.pink_bg ul li:nth-child(4) dd{
+    color: gray;
+    margin-left: 37px;
+}
+.pink_bg ul li:nth-child(4) .p1::after {
+    content: '\e900';
+    font-family: 'icomoon';
+}
+.pink_bg ul li:nth-child(n+4) dd a{
+    display: block;
+    width: 80px;
+    height: 40px;
+    border: 1px solid gray;
+    line-height: 40px;
+    text-align: center;
+    margin-left: -24px;
+    margin-right: -22px;
+}
+.pink_bg div {
+    position: relative;
+    width: 600px;
+    height: 48px;
+}
+.pink_bg div input {
+    display: block;
+    width: 30px;
+    height: 48px;
+    border: 1px solid gray;
+    margin-left: 82px;
+    text-align: center;
+    font-size: 16px;
+}
+.pink_bg div button {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 13px;
+    color: #fff;
+    margin-left: 150px;
+    background-color: #c81623;
+    font-size: 16px;
+}
+
+.pink_bg div .up {
+    position: absolute;
+    top: 0;
+    left: -38px;
+    padding: 3px;
+    background-color: #cacaca;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.pink_bg div .down {
+    position: absolute;
+    top: 24px;
+    left: -38px;
+    padding: 2px 5px;
+    background-color: #cacaca;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+/* 中间大长条左侧竖条start */
+.main_left_verticalBar {
+    float: left;
+    width: 200px;
+    height: 2400px;
+    border: 1px solid gray;
+}
+.main_left_verticalBar .ul1 li .choices {
+    display: block;
+    float: left;
+    width: 99px;
+    height: 30px;
+    background-color: antiquewhite;
+    line-height: 30px;
+    text-align: center;
+}
+.main_left_verticalBar .ul1 li div {
+    padding: 0 5px;
+}
+.main_left_verticalBar .ul1 li div a {
+    display: block;
+    float: left;
+    width: 94px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed gray;
+    font-size: 14px;
+    text-align: left;
+    margin: 5px 0;
+    padding-left: 14px;
+}
+.main_left_verticalBar i {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #868686;
+    margin: 20px 5px 20px 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.main_left_verticalBar .ul2 li {
+    position: relative;
+    margin: 20px 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.main_left_verticalBar .ul2 li a {
+    color: #868686;
+    font-size: 14px;
+}
+.main_left_verticalBar .ul2 li h4 {
+    color: #868686;
+    font-size: 12px;
+}
+.main_left_verticalBar .ul2 li button {
+    position: absolute;
+    bottom: 2px;
+    left: 50px;
+    color: #868686;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+/* 中间大长条右侧竖条start */
+.main_right_verticalBar {
+    float: left;
+    width: 1000px;
+    height: 2400px;
+    padding-left: 10px;
+}
+
+.main_right_verticalBar .dapei .title {
+    width: 990px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #d3d3d3;
+}
+.main_right_verticalBar .dapei .title i {
+    display: block;
+    width: 100px;
+    height: 48px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #c81623;
+}
+.main_right_verticalBar .dapei .body{
+    float: left;
+    width: 990px;
+    height: 350px;
+    border: 1px solid #d3d3d3;
+}
+.main_right_verticalBar .dapei .body .leftrolling .titlebar {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 750px;
+    height: 50px;
+}
+.main_right_verticalBar .dapei .body .leftrolling .titlebar ul li{
+    float: left;
+    font-size: 14px;
+    color: #868686;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.main_right_verticalBar .dapei .body .leftrolling {
+    float: left;
+    position: relative;
+    width: 750px;
+    height: 350px;
+    border-right: 1px solid #d3d3d3;
+}
+.main_right_verticalBar .dapei .body .leftrolling a img {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 20px;
+}
+.main_right_verticalBar .dapei .body .leftrolling .rollinggoods{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 750px;
+    height: 300px;
+}
+.main_right_verticalBar .dapei .body .leftrolling .rollinggoods li {
+    float: left;
+    width: 160px;
+    height: 240px;
+    background-color: #c81623;
+    margin-left: 14px;
+}
+.main_right_verticalBar .dapei .body .addshopCart {
+    width: 220px;
+    height: 350px;
+    position: relative;
+    float: left;
+}
+.main_right_verticalBar .dapei .body .addshopCart p{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+.main_right_verticalBar .dapei .body .addshopCart h4 {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-size: 14px;
+    color: #868686;
+}
+.main_right_verticalBar .dapei .body .addshopCart i {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    color: #c81623;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main_right_verticalBar .dapei .body .addshopCart button {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    background-color: #c81623;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.main_right_verticalBar .goodsIntro {
+    float: left;
+    width: 990px;
+    height: 1600px;
+}
+
+.goodsIntro .titles {
+    width: 990px;
+    height: 50px;
+    background-color: #dddddd;
+    border: 1px solid gray;
+}
+.goodsIntro .titles button:nth-child(1) {
+    background-color: #c81623;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    margin-right: -4px;
+}
+.goodsIntro .titles button:nth-child(n+2) {
+    background-color: #c4c4c4;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    margin-right: -4px;
+}
+.goodsIntro p {
+    color: gray;
+    margin: 5px 0;
+    font-size: 14px;
+}
+/* 底部guess盒子start-------------------- */
+.guess {
+    float: left;
+    width: 1200px;
+    height: 350px;
+    margin: 20px 0;
+    border: 1px solid rgb(188, 188, 188);
+}
+.guess .upperBar {
+    width: 1200px;
+    height: 36px;
+    background-color: #bdbdbd;
+    line-height: 36px;
+    padding-left: 10px;
+}
+.guess .upperBar ul li {
+    position: relative;
+    float: left;
+    width: 185px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 300px;
+}
+.guess .upperBar ul li p {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #868686;
+    font-size: 12px;
+}
+.guess .upperBar ul li a {
+    position: absolute;
+    color: #868686;
+    font-size: 12px;
+    bottom: 60px;
+    left: 5px;
+    line-height: 20px;
+}
+.guess .upperBar ul li h4 {
+    position: absolute;
+    color: #c81623;
+    font-size: 16px;
+    bottom: 30px;
+}
+.guess .upperBar ul li img {
+    position: absolute;
+    bottom: 90px;
+    left: 5px;
+}
+
+/* 底部footer-------------------- */
+footer {
+    float: right;
+    margin-left: 245px;
+    width: 100%;
+    height: 415px;
+}
